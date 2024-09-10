@@ -8,7 +8,7 @@ browser.storage.onChanged.addListener(function (changes, area) {
 });
 
 function update(value) {
-  styleEl.innerText = `html { filter: sepia(${value}%) !important; }`;
+    styleEl.innerText = `img { opacity: ${value} !important; }`;
 }
 
 browser.storage.local.get(['value']).then(result => update(result.value));
