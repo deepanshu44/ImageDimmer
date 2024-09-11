@@ -3,7 +3,6 @@
   "version": "1.0",
   "name": "ImageDimmer",
   "description": "decrease brightness of image",
-  "version": "1.0",
   "icons": {
     "64": "ImageDimmer.png"
   },
