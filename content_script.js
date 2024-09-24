@@ -2,9 +2,9 @@ let styleEl = document.createElement('style');
 document.body.appendChild(styleEl);
 
 browser.storage.onChanged.addListener(function (changes, area) {
-  if (area === 'local' && 'value' in changes) {
-    update(changes.value.newValue)
-  }
+    if (area === 'local' && 'value' in changes) {
+	update(changes.value.newValue)
+    }
 });
 
 function update(value) {
