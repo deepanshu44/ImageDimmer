@@ -30,7 +30,6 @@ async function setValue(element) {
     // valueEl.image_dimmer_value = updated_value;
 }
 
-// modify the listeners below so that "this" value can be accessed
 valueEl.addEventListener('change', e => setValue(e.target));
 video.addEventListener('change', e => setValue(e.target));
 svg.addEventListener('change', e => setValue(e.target));
